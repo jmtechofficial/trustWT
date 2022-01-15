@@ -34,6 +34,11 @@
     color: #0a396e !important;
 }
 
+.coinAsset{
+    padding: 10px 10px 10px 15px;
+    box-sizing: border-box;
+}
+
 .multi{
     background-image: url("multi.png");
 }
@@ -48,4 +53,67 @@
 }
 .btc{
     background-image: url('btc.svg');
+}
+.dai{
+    background-image: url("dai.svg");
+}
+.dash{
+    background-image: url("dash.svg");
+}
+.doge{
+    background-image: url("doge.svg");
+}
+.dot{
+    background-image: url("dot.svg");
+}
+.eth{
+    background-image: url("eth.svg");
+}
+.gusd{
+    background-image: url("gusd.svg");
+}
+.kava{
+    background-image: url("kava.svg");
+}
+.ltc{
+    background-image: url("ltc.svg");
+}
+.pax{
+    background-image: url("pax.svg");
+}
+.eurs{
+    background-image: url("eurs.png");
+}
+.trx{
+    background-image: url("trx.svg");
+}
+.usdc{
+    background-image: url("usdc.svg");
+}
+.usds{
+    background-image: url("usds.svg");
+}
+.usdt{
+    background-image: url("usdt.svg");
+}
+.xlm{
+    background-image: url("xlm.svg");
+}
+.xrp{
+    background-image: url("xrp.svg");
+}
+.xtz{
+    background-image: url("xtz.svg");
+}
+.algo{
+    background-image: url("algo.svg");
+}
+.tomo{
+    background-image: url("tomo.svg");
+}
+.tusd{
+    background-image: url("tusd.svg");
+}
+.busd{
+    background-image: url("busd.svg");
 }

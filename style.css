@@ -157,4 +157,14 @@ Button Style
     .display-4.font-weight-bold{
         font-size: 1.7rem;
     }
+
+    .coinAsset{
+        padding: 10px 0 10px 0;
+    }
+
+    .labelCoinAsset {
+        top: -1px;
+        left: 25px;
+        padding: 0 5px;
+    }
 }
