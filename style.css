@@ -167,4 +167,10 @@ Button Style
         left: 25px;
         padding: 0 5px;
     }
+
+    #tabs{
+        padding: 0;
+        margin: 10px -20px !important;
+        box-sizing: border-box !important;
+    }
 }
