@@ -1,7 +1,4 @@
-:root {
-    --atom: "/icons/atom.svg";
-    --white: #ffffff;
-}
+
 .atom{
-    background-image: url(var(--atom));
+    background-image: url(./atom.svg);
 }
