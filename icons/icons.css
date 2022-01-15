@@ -21,16 +21,22 @@
     min-height: 35px;
     line-height: 35px;
 }
+.coinAsset .select2-container span.select2-selection__rendered span {
+    padding: 10px 0 10px 40px;
+}
+.select2-container--default .select2-selection--single{
+    border-color: #25559c !important;
+}
 
 .atom{
     background-image: url("atom.svg");
 }
 .bgbp{
-    background-image: url(bgbp.png);
+    background-image: url('bgbp.png');
 }
 .bnb{
-    background-image: url(bnb.svg);
+    background-image: url('bnb.svg');
 }
 .btc{
-    background-image: url(btc.svg);
+    background-image: url('btc.svg');
 }
