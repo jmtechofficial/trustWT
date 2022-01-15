@@ -1,5 +1,5 @@
 :root {
-    --atom: "./icons/atom.svg";
+    --atom: "/icons/atom.svg";
     --white: #ffffff;
 }
 .atom{
