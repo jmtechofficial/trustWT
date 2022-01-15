@@ -23,7 +23,7 @@
 }
 
 .atom{
-    background-image: url(atom.svg);
+    background-image: url("atom.svg");
 }
 .bgbp{
     background-image: url(bgbp.png);
