@@ -1,0 +1,140 @@
+textarea{
+    margin: 10px 10px 10px 15px;
+    height: 115px;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid #25558c;
+    /*border: 1px solid #25558c;*/
+    padding: 15px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+.phrase.has-values textarea{
+    border: 1px solid #25558c;
+}
+textarea:focus{
+    border: 1px solid #0d64c5 !important;/*
+            box-shadow: inset 0 0 5px 2px rgb(13 100 197 / 30%);*/
+}
+
+
+
+
+.KeyParent{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.coinAsset{
+
+}
+
+.PhraseContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.phraseTab{
+
+}
+
+.phrase{
+    display: flex;
+    flex-direction: column;
+}
+
+.phrase label{
+    background: transparent;
+    bottom: -56px;
+    margin-left: 17px;
+    z-index: 10;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 30px;
+    max-width: 140px;
+    height: 20px;
+    letter-spacing: 2px;
+    transition: all .2s ease-in-out;
+    color: #837c7c;
+    cursor: text;
+
+}
+
+.phrase.focus label, .phrase.has-values label{
+    margin-left: 35px;
+    bottom: -27px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.phrase label > span{
+    padding: 0 15px 0;
+    position: relative;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+.phrase.focus label > span{
+    padding: 2px 5px;
+    background: white;
+    color: #0d64c5;
+    /*border: 1px solid #25558c !important;
+    box-shadow: 0 0 5px 2px rgb(13 100 197 / 30%);*/
+}
+.phrase.has-values:not(.focus) label > span{
+    background: white;
+    border: 0 solid #25558c;
+    padding: 2px 2px;
+    color: #25559c/* #3d3d3d*/
+}
+
+.ul-bullet{
+    list-style: none !important;
+    font-size: 14px;
+}
+
+#errors{
+    color: orangered;
+}
+
+
+
+/****
+Button Style
+****/
+.buttonDive{
+    padding-left: 40px;
+}
+
+
+/** media query**/
+@media screen and (max-width: 768px) {
+    .ul-bullet, .buttonDive{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ul-bullet li{
+        margin-top: 10px;
+    }
+
+    #private_phrase{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .phrase label{
+        bottom: -50px;
+        margin-left: 0;
+    }
+
+    .phrase.focus label, .phrase.has-values label {
+        margin-left: 15px;
+    }
+
+    .display-4.font-weight-bold{
+        font-size: 1.7rem;
+    }
+}
