@@ -1,33 +1,42 @@
 
 .select2-container--open .select2-dropdown--below{
-    margin-top: -30px !important;
+    margin-top: -35px !important;
 }
 
 .coinAsset .select2-selection--single{
     min-height: 55px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .coinAsset .select2-selection--single .select2-selection__arrow{
-    top: 23px !important;
+    top: 18px !important;
     right: 5px !important;
 }
 
 .coinAsset .select2-container span.select2-selection__rendered span, .select2-results__options li > span{
     background-repeat: no-repeat;
     background-size: 22px;
-    padding-left: 30px;
+    padding-left: 40px;
     background-position-y: center;
     background-position-x: 5px;
     min-height: 35px;
     line-height: 35px;
 }
 .coinAsset .select2-container span.select2-selection__rendered span {
+    font-size: 15px !important;
     padding: 10px 0 10px 40px;
 }
 .select2-container--default .select2-selection--single{
     border-color: #25559c !important;
 }
 
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: rgb(0 0 0 / 4%) !important;
+    color: #0a396e !important;
+}
+
+.multi{
+    background-image: url("multi.png");
+}
 .atom{
     background-image: url("atom.svg");
 }
