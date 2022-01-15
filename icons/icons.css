@@ -1,4 +1,27 @@
 
+.select2-container--open .select2-dropdown--below{
+    margin-top: -30px !important;
+}
+
+.coinAsset .select2-selection--single{
+    min-height: 55px;
+    padding-top: 20px;
+}
+.coinAsset .select2-selection--single .select2-selection__arrow{
+    top: 23px !important;
+    right: 5px !important;
+}
+
+.coinAsset .select2-container span.select2-selection__rendered span, .select2-results__options li > span{
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    min-height: 35px;
+    line-height: 35px;
+}
+
 .atom{
     background-image: url(atom.svg);
 }
