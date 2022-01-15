@@ -72,12 +72,13 @@ position: relative;
     position: relative;
     box-sizing: border-box;
     margin-right: 30px;
-    max-width: 140px;
+    max-width: 160px;
     height: 20px;
     letter-spacing: 2px;
     transition: all .2s ease-in-out;
     color: #837c7c;
     cursor: text;
+    white-space: nowrap;
 
 }
 
